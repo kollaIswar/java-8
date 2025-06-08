@@ -1,4 +1,4 @@
-package com.java8.streams.intermediate;
+package com.java8.streams.terminal;
 
 import com.java8.data.Student;
 import com.java8.data.StudentDataBase;
@@ -100,6 +100,7 @@ public class StreamTerminalExample {
         */
         long totalCount= studentList. stream().peek(System. out::println).count();
         System.out.println(totalCount);
+
 
     }
 }
